@@ -9,6 +9,7 @@ function validateForm() {
         return false;
     }
 
+
     if (!emailPattern.test(email)) {
         alert("Format email tidak valid!");
         return false;
